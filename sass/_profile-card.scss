@@ -1,0 +1,87 @@
+.profile-card {
+    width: 90%;
+    max-width: 360px;
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    &__image {
+        width: 100%;
+        display: block;
+    }
+
+    &__information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__profile-image {
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-top: -50px;
+        margin-bottom: 1.5rem;
+    }
+
+    &__personal-information {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid $text-color-3;
+        gap: 0.5rem;
+        padding-bottom: 1.8rem;
+    }
+
+    &__name {
+        font-size: 1.2rem;
+        color: $text-color-1;
+    }
+
+    &__age {
+        font-weight: 400;
+        color: $text-color-2;
+        font-size: 1.2rem;
+    }
+
+    &__city {
+        width: 100%;
+        text-align: center;
+        color: $text-color-2;
+    }
+
+    &__stats {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 3rem;
+    }
+
+    &__stat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__stat-number {
+        color: $text-color-1;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    &__stat-type {
+        color: $text-color-2;
+        font-size: 0.8rem;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    position: fixed;
+    bottom: 20px;
+
+    &__link {
+        color: #fff;
+    }
+}
